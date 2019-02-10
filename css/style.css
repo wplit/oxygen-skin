@@ -29,7 +29,7 @@
 .oxygen-states-dropdown li, 
 .oxygen-classes-dropdown li,
 .oxygen-add-section-subsection,
-.oxygen-control-row .oxygen-control-label,
+.oxygen-control-label,
 .oxygen-sidebar-advanced-subtab,
 .oxygen-sidebar-top,
 .oxygen-settings-breadcrumb {
@@ -47,9 +47,12 @@
     font-size: 12px;
 }
 
-#oxygen-sidebar .oxygen-add-section-element {
-    color: rgba(255,255,255,0.8);
-    font-size: 11px;
+#oxygen-sidebar .oxygen-add-section-element,
+.oxygen-file-input .oxygen-file-input-browse, 
+.oxygen-file-input .oxygen-set-link, 
+.oxygen-input-with-button .oxygen-input-button,
+.oxygen-dynamic-data-browse {
+    font-size: 11px!important;
 }
 
 .oxygen-add-section-library-menu-subcategories a {
@@ -127,4 +130,8 @@
 
 .oxygen-toolbar .oxygen-add-section-element img {
     width: 55px;
+}
+
+#oxygen-sidebar .oxygen-control-wrapper {
+    margin-bottom: 12px;
 }
