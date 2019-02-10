@@ -1,0 +1,116 @@
+
+
+/* Typography
+--------------------------------------------- */
+
+#oxygen-topbar,
+#oxygen-sidebar,
+.ct-panel-elements-managers,
+.oxygen-classes-dropdown-input, 
+.oxygen-select-box-option input,
+.oxygen-add-searchbar,
+#ct-sidepanel *,
+.oxygen-active-selector-box input {
+    font-family: 'avenir next'!important;
+    letter-spacing: 0!important;
+}
+
+.oxygen-active-element-name div {
+    font-size: 15px;
+}
+
+.oxygen-sidepanel-header-row,
+.ct-icon:before{
+    font-size: 14px!important;
+}
+
+.oxygen-add-sidebar .oxygen-add-section-accordion,
+.oxygen-media-query-dropdown li, 
+.oxygen-states-dropdown li, 
+.oxygen-classes-dropdown li,
+.oxygen-add-section-subsection,
+.oxygen-control-row .oxygen-control-label,
+.oxygen-sidebar-advanced-subtab {
+    font-size: 13px!important;
+}
+
+.oxygen-add-section-subsection {
+    line-height: 1.6;
+}
+
+.oxygen-toolbar .oxygen-manage-menu, 
+.oxygen-toolbar .oxygen-back-to-wp-menu,
+.oxygen-toolbar .oxygen-toolbar-button-dropdown,
+.oxygen-toolbar .oxygen-zoom-control .oxygen-zoom-control-zoom-amount {
+    font-size: 12px;
+}
+
+.oxygen-add-section-library-menu-subcategories a {
+    font-weight: 500;
+}
+
+.ct-tab-panel .ct-elements-managers-top-item.ct-button {
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    margin-left: 5px;
+}
+
+/* Icon dimention Changes to match fonts
+--------------------------------------------- */
+
+.oxygen-active-element-icons img {
+    width: 18px;
+}
+
+.oxygen-active-selector-box {
+    padding: 1px;
+}
+
+.ct-tab-panel .oxygen-close-icon {
+    height: 12px;
+    width: 12px;
+}
+
+.oxygen-show-settings-panel .oxygen-close-icon {
+    width: 11px;
+    height: 11px;
+}
+
+.oxygen-media-query-box img:first-child {
+    width: 15px;
+}
+
+.oxygen-classes-dropdown li img {
+    width: 18px;
+}
+
+#oxygen-sidebar .oxygen-media-query-dropdown li > img:first-child {
+    padding-right: 0px;
+    width: 14px;
+    margin-right: 9px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 0;
+}
+
+.oxygen-toolbar-button span {
+    font-weight: 500;
+}
+
+.oxygen-save-button img,
+.oxygen-add-button img {
+    height: 21px!important;
+}
+
+.oxygen-toolbar .oxygen-manage-menu img, 
+.oxygen-toolbar .oxygen-back-to-wp-menu img {
+    height: 14px;
+}
+
+.oxygen-toolbar .oxygen-dom-tree-button img {
+    height: 24px;
+}
+
+.oxygen-toolbar .oxygen-add-section-element img {
+    width: 55px;
+}
