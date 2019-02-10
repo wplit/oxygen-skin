@@ -30,7 +30,9 @@
 .oxygen-classes-dropdown li,
 .oxygen-add-section-subsection,
 .oxygen-control-row .oxygen-control-label,
-.oxygen-sidebar-advanced-subtab {
+.oxygen-sidebar-advanced-subtab,
+.oxygen-sidebar-top,
+.oxygen-settings-breadcrumb {
     font-size: 13px!important;
 }
 
@@ -43,6 +45,11 @@
 .oxygen-toolbar .oxygen-toolbar-button-dropdown,
 .oxygen-toolbar .oxygen-zoom-control .oxygen-zoom-control-zoom-amount {
     font-size: 12px;
+}
+
+#oxygen-sidebar .oxygen-add-section-element {
+    color: rgba(255,255,255,0.8);
+    font-size: 11px;
 }
 
 .oxygen-add-section-library-menu-subcategories a {
@@ -80,7 +87,14 @@
     width: 15px;
 }
 
-.oxygen-classes-dropdown li img {
+.oxygen-sidebar-advanced-subtab img:first-child {
+    margin-right: 22px!important;
+}
+
+.oxygen-states-dropdown li img, 
+.oxygen-classes-dropdown li img, 
+.oxygen-style-set-dropdown div img, 
+.oxygen-presets-dropdown div img {
     width: 18px;
 }
 
