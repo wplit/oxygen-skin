@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Loads CSS inside the Oxygen Builder
+ * Loads CSS for the Oxygen Builder UI
  */
 add_action( 'oxygen_enqueue_ui_scripts', 'lit_give_us_some_avenir' );
 function lit_give_us_some_avenir() {
